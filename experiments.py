@@ -1,6 +1,5 @@
 # Experiments file for question 2.
-# Fill in the specification for the two RAM programs and use the provided 
-# graphing function to graph the running times.
+# Fill in the specification for the two RAM programs and use the provided graphing function to graph the running times.
 # Run `python experiments.py` to generate the plot.
 
 import simulator
@@ -10,14 +9,10 @@ import time
 
 
 # Problem 2: Writing the RAM programs
-# For readibility purposes, we have defined the following Python variables for
-# you to use in your RAM programs. 
-# Your RAM program should be a list of length l where the 0th element is an 
-# int representing the number of variables 
-# used by the program. The subsequent (l-1) elements of the list will be the
-# commands in order. 
-# Each command can be represented by a list containing a command (string),
-# followed by any arguments the command takes (ints).
+# For readibility purposes, we have defined the following Python variables for you to use in your RAM programs. 
+# Your RAM program should be a list of length l where the 0th element is an int representing the number of variables 
+# used by the program. The subsequent (l-1) elements of the list will be the commands in order. 
+# Each command can be represented by a list containing a command (string), followed by any arguments the command takes (ints).
 # Please refer to the test file `test.py` to see examples of RAM programs.
 
 # variables
@@ -64,6 +59,7 @@ prog2 = [10,
     ['-', counter_id, counter_id, one_id],
     # TODO: lines 14-19 from pseudocode
 ]
+
 
 
 # Helper functions for plotting runtimes
