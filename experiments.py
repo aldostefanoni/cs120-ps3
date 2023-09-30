@@ -35,6 +35,11 @@ prog1 = [8,
     ['assign', output_len_id, 1], 
     ['assign', output_ptr_id, 0],
     # TODO: lines 5-8 from pseudocode
+    [],
+    [],
+    [],
+    [],
+
     ['-', counter_id, counter_id, one_id],
     ['goto', zero_id, 7],
     ['*', result_id, result_id, seventeen_id],
