@@ -71,7 +71,7 @@ def executeProgram(programArr, inputArr):
                 variableList[ops[0]] = 0
             else:
               variableList[ops[0]] = int(variableList[ops[1]] // variableList[ops[2]])
-            pass
+            
             
         # Control commands
         if cmd == "goto":
